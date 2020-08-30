@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware\LED_part\LED_part.sch</source>
+    <date>5/12/2020 1:35:31 AM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Data Recorder - Top - Transmissive Unit</title>
+        <company/>
+        <rev>1.0</rev>
+        <date/>
+        <source>LED_part.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Designed By: M Shifat Hossain"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="LED1">
+      <value>CT_DELSS1.12-AABA-36-44G4</value>
+      <footprint>LIB_CT_DELSS1:CTDELSS112AABA3644G4</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/CT-DELSS1.12-AABA-36-44G4/475-3669-1-ND/9989888</datasheet>
+      <fields>
+        <field name="Description">Standard LEDs - SMD Green FIREFLY E1608</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">CT DELSS1.12-AABA-36-44G4</field>
+        <field name="Mouser Part Number">720-CTDELSS112A1193</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/CT-DELSS112-AABA-36-44G4?qs=%252BEew9%252B0nqrAxkL%2FEjDaK4Q%3D%3D</field>
+      </fields>
+      <libsource lib="CT_DELSS1.12-AABA-36-44G4" part="CT_DELSS1.12-AABA-36-44G4" description="Standard LEDs - SMD Green FIREFLY E1608"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAFE4F1</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>CH_DELSS1.22-S1T2-35</value>
+      <footprint>LIB_CH_DELSS1:CHDELSS122S1T235</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-5970299/CH DELSS1.22_EN.pdf</datasheet>
+      <fields>
+        <field name="Description">Standard LEDs - SMD 64P Card Connector FIREFLY E1608</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">CH DELSS1.22-S1T2-35</field>
+        <field name="Mouser Part Number">720-CHDELSS122A1192</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/CH-DELSS122-S1T2-35?qs=%252BEew9%252B0nqrCNoQzrwoCJpA%3D%3D</field>
+      </fields>
+      <libsource lib="CH_DELSS1.22-S1T2-35" part="CH_DELSS1.22-S1T2-35" description="Standard LEDs - SMD 64P Card Connector FIREFLY E1608"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAFF3B2</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>SFH_4441</value>
+      <footprint>LIB_SFH_4441:LEDM2320X105N</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-2496238/SFH%204441.pdf</datasheet>
+      <fields>
+        <field name="Description">Osram Opto SFH 4441 Mini MIDLED IR LED, 950nm, SMD Package</field>
+        <field name="Height">1.05</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">SFH 4441</field>
+        <field name="Mouser Part Number">720-SFH4441</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-4441?qs=9EKcitwk7VQB6PkfMF8lLw%3D%3D</field>
+        <field name="RS Part Number">8768751</field>
+        <field name="RS Price/Stock">https://uk.rs-online.com/web/p/products/8768751</field>
+      </fields>
+      <libsource lib="SFH_4441" part="SFH_4441" description="Osram Opto SFH 4441 Mini MIDLED IR LED, 950nm, SMD Package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB0027B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB017F8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CH_DELSS1.22-S1T2-35" part="CH_DELSS1.22-S1T2-35">
+      <description>Standard LEDs - SMD 64P Card Connector FIREFLY E1608</description>
+      <docs>https://dammedia.osram.info/media/resource/hires/osram-dam-5970299/CH DELSS1.22_EN.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">CH_DELSS1.22-S1T2-35</field>
+        <field name="Footprint">CHDELSS122S1T235</field>
+        <field name="Datasheet">https://dammedia.osram.info/media/resource/hires/osram-dam-5970299/CH DELSS1.22_EN.pdf</field>
+        <field name="Description">Standard LEDs - SMD 64P Card Connector FIREFLY E1608</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">CH DELSS1.22-S1T2-35</field>
+        <field name="Mouser Part Number">720-CHDELSS122A1192</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/CH-DELSS122-S1T2-35?qs=%252BEew9%252B0nqrCNoQzrwoCJpA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="unspc"/>
+        <pin num="2" name="K" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="CT_DELSS1.12-AABA-36-44G4" part="CT_DELSS1.12-AABA-36-44G4">
+      <description>Standard LEDs - SMD Green FIREFLY E1608</description>
+      <docs>https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/CT-DELSS1.12-AABA-36-44G4/475-3669-1-ND/9989888</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">CT_DELSS1.12-AABA-36-44G4</field>
+        <field name="Footprint">CTDELSS112AABA3644G4</field>
+        <field name="Datasheet">https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/CT-DELSS1.12-AABA-36-44G4/475-3669-1-ND/9989888</field>
+        <field name="Description">Standard LEDs - SMD Green FIREFLY E1608</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">CT DELSS1.12-AABA-36-44G4</field>
+        <field name="Mouser Part Number">720-CTDELSS112A1193</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/CT-DELSS112-AABA-36-44G4?qs=%252BEew9%252B0nqrAxkL%2FEjDaK4Q%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="unspc"/>
+        <pin num="2" name="A" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFH_4441" part="SFH_4441">
+      <description>Osram Opto SFH 4441 Mini MIDLED IR LED, 950nm, SMD Package</description>
+      <docs>https://dammedia.osram.info/media/resource/hires/osram-dam-2496238/SFH%204441.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SFH_4441</field>
+        <field name="Footprint">LEDM2320X105N</field>
+        <field name="Datasheet">https://dammedia.osram.info/media/resource/hires/osram-dam-2496238/SFH%204441.pdf</field>
+        <field name="Description">Osram Opto SFH 4441 Mini MIDLED IR LED, 950nm, SMD Package</field>
+        <field name="Height">1.05</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">SFH 4441</field>
+        <field name="Mouser Part Number">720-SFH4441</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-4441?qs=9EKcitwk7VQB6PkfMF8lLw%3D%3D</field>
+        <field name="RS Part Number">8768751</field>
+        <field name="RS Price/Stock">https://uk.rs-online.com/web/p/products/8768751</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="unspc"/>
+        <pin num="2" name="A" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CH_DELSS1.22-S1T2-35">
+      <uri>D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_CH_DELSS1.22-S1T2-35/CH_DELSS1.22-S1T2-35.lib</uri>
+    </library>
+    <library logical="CT_DELSS1.12-AABA-36-44G4">
+      <uri>D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_CT_DELSS1.12-AABA-36-44G4/CT_DELSS1.12-AABA-36-44G4.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="SFH_4441">
+      <uri>D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_SFH_4441/SFH_4441.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad4)">
+      <node ref="LED2" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad3)">
+      <node ref="LED3" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad2)">
+      <node ref="LED1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="LED3" pin="2"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="LED1" pin="2"/>
+    </net>
+  </nets>
+</export>

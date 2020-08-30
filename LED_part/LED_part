@@ -1,0 +1,23 @@
+"Source:","D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware\LED_part\LED_part.sch"
+"Date:","5/12/2020 1:38:13 AM"
+"Tool:","Eeschema (5.1.4)-1"
+"Generator:","D:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","4"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Description","Height","Manufacturer_Name","Manufacturer_Part_Number","Mouser Part Number","Mouser Price/Stock","RS Part Number","RS Price/Stock"
+"","","J1","Conn_01x04_Male","Connector:Conn_01x04_Male","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~","","","","","","","",""
+"","","LED1","CT_DELSS1.12-AABA-36-44G4","CT_DELSS1.12-AABA-36-44G4:CT_DELSS1.12-AABA-36-44G4","LIB_CT_DELSS1:CTDELSS112AABA3644G4","https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/CT-DELSS1.12-AABA-36-44G4/475-3669-1-ND/9989888","Standard LEDs - SMD Green FIREFLY E1608","0.6","OSRAM","CT DELSS1.12-AABA-36-44G4","720-CTDELSS112A1193","https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/CT-DELSS112-AABA-36-44G4?qs=%252BEew9%252B0nqrAxkL%2FEjDaK4Q%3D%3D","",""
+"","","LED2","CH_DELSS1.22-S1T2-35","CH_DELSS1.22-S1T2-35:CH_DELSS1.22-S1T2-35","LIB_CH_DELSS1:CHDELSS122S1T235","https://dammedia.osram.info/media/resource/hires/osram-dam-5970299/CH DELSS1.22_EN.pdf","Standard LEDs - SMD 64P Card Connector FIREFLY E1608","0.6","OSRAM","CH DELSS1.22-S1T2-35","720-CHDELSS122A1192","https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/CH-DELSS122-S1T2-35?qs=%252BEew9%252B0nqrCNoQzrwoCJpA%3D%3D","",""
+"","","LED3","SFH_4441","SFH_4441:SFH_4441","LIB_SFH_4441:LEDM2320X105N","https://dammedia.osram.info/media/resource/hires/osram-dam-2496238/SFH%204441.pdf","Osram Opto SFH 4441 Mini MIDLED IR LED, 950nm, SMD Package","1.05","OSRAM","SFH 4441","720-SFH4441","https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-4441?qs=9EKcitwk7VQB6PkfMF8lLw%3D%3D","8768751","https://uk.rs-online.com/web/p/products/8768751"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Description","Height","Manufacturer_Name","Manufacturer_Part_Number","Mouser Part Number","Mouser Price/Stock","RS Part Number","RS Price/Stock"
+"1","1","J1","Conn_01x04_Male","Connector:Conn_01x04_Male","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~","","","","","","","",""
+"2","1","LED1","CT_DELSS1.12-AABA-36-44G4","CT_DELSS1.12-AABA-36-44G4:CT_DELSS1.12-AABA-36-44G4","LIB_CT_DELSS1:CTDELSS112AABA3644G4","https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/CT-DELSS1.12-AABA-36-44G4/475-3669-1-ND/9989888","Standard LEDs - SMD Green FIREFLY E1608","0.6","OSRAM","CT DELSS1.12-AABA-36-44G4","720-CTDELSS112A1193","https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/CT-DELSS112-AABA-36-44G4?qs=%252BEew9%252B0nqrAxkL%2FEjDaK4Q%3D%3D","",""
+"3","1","LED2","CH_DELSS1.22-S1T2-35","CH_DELSS1.22-S1T2-35:CH_DELSS1.22-S1T2-35","LIB_CH_DELSS1:CHDELSS122S1T235","https://dammedia.osram.info/media/resource/hires/osram-dam-5970299/CH DELSS1.22_EN.pdf","Standard LEDs - SMD 64P Card Connector FIREFLY E1608","0.6","OSRAM","CH DELSS1.22-S1T2-35","720-CHDELSS122A1192","https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/CH-DELSS122-S1T2-35?qs=%252BEew9%252B0nqrCNoQzrwoCJpA%3D%3D","",""
+"4","1","LED3","SFH_4441","SFH_4441:SFH_4441","LIB_SFH_4441:LEDM2320X105N","https://dammedia.osram.info/media/resource/hires/osram-dam-2496238/SFH%204441.pdf","Osram Opto SFH 4441 Mini MIDLED IR LED, 950nm, SMD Package","1.05","OSRAM","SFH 4441","720-SFH4441","https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-4441?qs=9EKcitwk7VQB6PkfMF8lLw%3D%3D","8768751","https://uk.rs-online.com/web/p/products/8768751"

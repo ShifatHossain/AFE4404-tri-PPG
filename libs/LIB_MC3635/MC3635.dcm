@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC3635
+D Accelerometers Digital Output 3 Axis Acceleronmeter
+K
+F http://www.mcubemems.com/wp-content/uploads/2017/09/MC3635-Datasheet-APS-048-0044v1.5.pdf
+$ENDCMP
+#
+#End Doc Library

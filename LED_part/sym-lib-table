@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name CH_DELSS1.22-S1T2-35)(type Legacy)(uri D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_CH_DELSS1.22-S1T2-35/CH_DELSS1.22-S1T2-35.lib)(options "")(descr ""))
+  (lib (name CT_DELSS1.12-AABA-36-44G4)(type Legacy)(uri D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_CT_DELSS1.12-AABA-36-44G4/CT_DELSS1.12-AABA-36-44G4.lib)(options "")(descr ""))
+  (lib (name SFH_4441)(type Legacy)(uri D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_SFH_4441/SFH_4441.lib)(options "")(descr ""))
+  (lib (name SFH_4043)(type Legacy)(uri D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_SFH_4043/SFH_4043.lib)(options "")(descr ""))
+)

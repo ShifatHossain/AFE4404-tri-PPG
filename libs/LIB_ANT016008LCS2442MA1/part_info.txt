@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=ANT016008LCS2442MA1
+PartCategory=Antenna
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2018-05-25 11:54:02
+Downloaded=2020-05-06 12:14:31
+3D=N

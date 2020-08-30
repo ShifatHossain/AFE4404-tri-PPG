@@ -1,0 +1,9 @@
+Manufacturer=Toshiba
+PartNumber=BAV99W,LF
+PartCategory=Diode
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=1.1
+Released=2020-04-24 03:01:43
+Downloaded=2020-04-29 07:17:23
+3D=N

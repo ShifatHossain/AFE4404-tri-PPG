@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AUP2G00DC-Q100H
+D 74AUP2G00-Q100 - Low-power dual 2-input NAND gate@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74AUP2G00_Q100.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MC3635
+#/553662/193862/2.46/10/4/Accelerometer
+DEF MC3635 AC 0 30 Y Y 1 F N
+F0 "AC" 1250 300 50 H V L CNN
+F1 "MC3635" 1250 200 50 H V L CNN
+F2 "MC3635" 1250 100 50 H I L CNN
+F3 "http://www.mcubemems.com/wp-content/uploads/2017/09/MC3635-Datasheet-APS-048-0044v1.5.pdf" 1250 0 50 H I L CNN
+F4 "Accelerometers Digital Output 3 Axis Acceleronmeter" 1250 -100 50 H I L CNN "Description"
+F5 "0.94" 1250 -200 50 H I L CNN "Height"
+F6 "mCube" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MC3635" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "498-MC3635" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/mCube/MC3635?qs=xIT89idmjZlQ0wKEjJ43VQ%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1250 -700 50 H I L CNN "RS Part Number"
+F11 "" 1250 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X DOUT_A1 1 0 0 200 R 50 50 0 0 U
+X SIN_SDA 2 0 -100 200 R 50 50 0 0 U
+X NC 3 0 -200 200 R 50 50 0 0 N
+X VPP 4 0 -300 200 R 50 50 0 0 U
+X INTN 5 0 -400 200 R 50 50 0 0 O
+X VDDIO 6 1400 0 200 L 50 50 0 0 U
+X VDD 7 1400 -100 200 L 50 50 0 0 U
+X GND 8 1400 -200 200 L 50 50 0 0 W
+X CSN 9 1400 -300 200 L 50 50 0 0 W
+X SCK_SCL 10 1400 -400 200 L 50 50 0 0 I
+P 5 0 1 6 200 100 1200 100 1200 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

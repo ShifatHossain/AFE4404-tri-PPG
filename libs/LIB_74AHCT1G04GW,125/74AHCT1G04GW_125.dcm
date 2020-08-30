@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHCT1G04GW,125
+D 74AHC1G04; 74AHCT1G04 - Inverter@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+#End Doc Library

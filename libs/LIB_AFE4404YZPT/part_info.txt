@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=AFE4404YZPT
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=15
+Version=3.1
+Released=2017-07-02 22:14:46
+Downloaded=2020-04-29 04:34:24
+3D=Y

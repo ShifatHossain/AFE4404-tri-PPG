@@ -1,0 +1,9 @@
+Manufacturer=OSRAM
+PartNumber=CH DELSS1.22-S1T2-35
+PartCategory=LED
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2019-03-21 17:35:59
+Downloaded=2020-04-29 08:40:59
+3D=Y

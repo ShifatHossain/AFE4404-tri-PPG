@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ANT016008LCS2442MA1
+D TDK - ANT016008LCS2442MA1 - CHIP ANTENNA, 2.4GHZ, ISM, 50 OHM, 0603
+K
+F https://product.tdk.com/info/en/documents/data_sheet/rf_ant_ant016008lcs2442ma1_summary_en.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware\hardware.sch</source>
+    <date>5/12/2020 1:34:15 AM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Data Recorder - Bottom - Reflective Unit</title>
+        <company/>
+        <rev>0.1</rev>
+        <date/>
+        <source>hardware.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="AFE4404 Part"/>
+        <comment number="4" value="Designed By: M Shifat Hossain"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ESP32_PICO/" tstamps="/5EB2D545/">
+      <title_block>
+        <title>Data Recorder - Bottom - Reflective Unit</title>
+        <company/>
+        <rev>0.1</rev>
+        <date/>
+        <source>file5EB2D544.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="ESP32-PICO-D4 Part"/>
+        <comment number="4" value="Designed By: M Shifat Hossain"/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/POWER_UNIT/" tstamps="/5EB3FA09/">
+      <title_block>
+        <title>Data Recorder - Bottom - Reflective Unit</title>
+        <company/>
+        <rev>0.1</rev>
+        <date/>
+        <source>file5EB3FA08.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Power_Unit"/>
+        <comment number="4" value="Designed By: M Shifat Hossain"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC3">
+      <value>AFE4404YZPT</value>
+      <footprint>LIB_AFE4404YZPT:BGA15C50P3X5_160X260X50</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/afe4404</datasheet>
+      <fields>
+        <field name="Description">Ultra-small, Integrated AFE for Wearable, Optical Heart Rate Monitoring and Bio-Sensing</field>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">AFE4404YZPT</field>
+        <field name="Mouser Part Number">595-AFE4404YZPT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AFE4404YZPT?qs=GJ%2F2ZGcr5uN6CYYaQrxmmA%3D%3D</field>
+        <field name="RS Part Number">1330132P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1330132P</field>
+      </fields>
+      <libsource lib="AFE4404YZPT" part="AFE4404YZPT" description="Ultra-small, Integrated AFE for Wearable, Optical Heart Rate Monitoring and Bio-Sensing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA94B2F</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>SFH_7050</value>
+      <footprint>LIB_SFH_7050:SFH7050</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/SFH 7050.pdf</datasheet>
+      <fields>
+        <field name="Description">Osram LED,CoB - BioMon Osram LED,CoB - BioMon</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">SFH 7050</field>
+        <field name="Mouser Part Number">720-SFH7050</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-7050?qs=beZBGHSk9c35Nini1YeCrg%3D%3D</field>
+        <field name="RS Part Number">8353096P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/8353096P</field>
+      </fields>
+      <libsource lib="SFH_7050" part="SFH_7050" description="Osram LED,CoB - BioMon Osram LED,CoB - BioMon"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA958D9</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>CPC2030N</value>
+      <footprint>LIB_CPC2030N:SOP254P610X218-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/CPC2030N.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET Output Optocouplers Dual SP Open Relay 8-Pin SOIC OptoMOS</field>
+        <field name="Height">2.184</field>
+        <field name="Manufacturer_Name">IXYS SEMICONDUCTOR</field>
+        <field name="Manufacturer_Part_Number">CPC2030N</field>
+        <field name="Mouser Part Number">849-CPC2030N</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC2030N?qs=MxzUEhdSHRaHve46MRK9Ew%3D%3D</field>
+      </fields>
+      <libsource lib="CPC2030N" part="CPC2030N" description="MOSFET Output Optocouplers Dual SP Open Relay 8-Pin SOIC OptoMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA96FE7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB24CF4</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>74AUP2G00DC-Q100H</value>
+      <footprint>LIB_74AUP2G00DC-Q100H:SOP50P310X100-8N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74AUP2G00_Q100.pdf</datasheet>
+      <fields>
+        <field name="Description">74AUP2G00-Q100 - Low-power dual 2-input NAND gate@en-us</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74AUP2G00DC-Q100H</field>
+        <field name="Mouser Part Number">771-74AUP2G00DCQ100H</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74AUP2G00DC-Q100H?qs=%252B6g0mu59x7ID5tie8wVb0g%3D%3D</field>
+      </fields>
+      <libsource lib="74AUP2G00DC-Q100H" part="74AUP2G00DC-Q100H" description="74AUP2G00-Q100 - Low-power dual 2-input NAND gate@en-us"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB7074D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>412</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB72D58</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>412</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB73199</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB8D0B6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB8F1B8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>499k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBB1C83</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>499k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBB22C9</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>ESP32-PICO-D4</value>
+      <footprint>LIB_ESP32-PICO-D4:ESP32PICOD4</footprint>
+      <datasheet>http://www.mouser.com/datasheet/2/891/esp32-pico-d4_datasheet_en-1365829.pdf</datasheet>
+      <fields>
+        <field name="Description">RF System on a Chip - SoC LGA48-pin, 7*7mm</field>
+        <field name="Height">1.04</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-PICO-D4</field>
+        <field name="Mouser Part Number">356-ESP32-PICO-D4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-PICO-D4?qs=MLItCLRbWsw7MJlbN3HfdA%3D%3D</field>
+      </fields>
+      <libsource lib="ESP32-PICO-D4" part="ESP32-PICO-D4" description="RF System on a Chip - SoC LGA48-pin, 7*7mm"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB2D74F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>2.7pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB2F58D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB2FE0F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2.7pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB304ED</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>1.6nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB30B9E</tstamp>
+    </comp>
+    <comp ref="ANT1">
+      <value>ANT016008LCS2442MA1</value>
+      <footprint>LIB_ANT016008LCS2442MA1:ANT016008LCD1575MA1</footprint>
+      <datasheet>https://product.tdk.com/info/en/documents/data_sheet/rf_ant_ant016008lcs2442ma1_summary_en.pdf</datasheet>
+      <fields>
+        <field name="Description">TDK - ANT016008LCS2442MA1 - CHIP ANTENNA, 2.4GHZ, ISM, 50 OHM, 0603</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">ANT016008LCS2442MA1</field>
+        <field name="Mouser Part Number">810-ANT168LCS2442MA1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/ANT016008LCS2442MA1?qs=6JAMGB%252BEdkzA5xxexILXRg%3D%3D</field>
+      </fields>
+      <libsource lib="ANT016008LCS2442MA1" part="ANT016008LCS2442MA1" description="TDK - ANT016008LCS2442MA1 - CHIP ANTENNA, 2.4GHZ, ISM, 50 OHM, 0603"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB32D51</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB36DCB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB3B226</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB3BB00</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB3F215</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB3F54F</tstamp>
+    </comp>
+    <comp ref="AC1">
+      <value>MC3635</value>
+      <footprint>LIB_MC3635:MC3635</footprint>
+      <datasheet>http://www.mcubemems.com/wp-content/uploads/2017/09/MC3635-Datasheet-APS-048-0044v1.5.pdf</datasheet>
+      <fields>
+        <field name="Description">Accelerometers Digital Output 3 Axis Acceleronmeter</field>
+        <field name="Height">0.94</field>
+        <field name="Manufacturer_Name">mCube</field>
+        <field name="Manufacturer_Part_Number">MC3635</field>
+        <field name="Mouser Part Number">498-MC3635</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/mCube/MC3635?qs=xIT89idmjZlQ0wKEjJ43VQ%3D%3D</field>
+      </fields>
+      <libsource lib="MC3635" part="MC3635" description="Accelerometers Digital Output 3 Axis Acceleronmeter"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB567D3</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB5C77E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB62002</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32_PICO/" tstamps="/5EB2D545/"/>
+      <tstamp>5EB6265E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/5EB3FA09/"/>
+      <tstamp>5EB4001A</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/5EB3FA09/"/>
+      <tstamp>5EB4089B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex_47346-0001</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/5EB3FA09/"/>
+      <tstamp>5EB44274</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/5EB3FA09/"/>
+      <tstamp>5EB45AB5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/5EB3FA09/"/>
+      <tstamp>5EB46031</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLV70233_WSON6</value>
+      <footprint>Package_SON:WSON-6_1.5x1.5mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv702.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="TLV70233_WSON6" description="300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/5EB3FA09/"/>
+      <tstamp>5EB4B470</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74AUP2G00DC-Q100H" part="74AUP2G00DC-Q100H">
+      <description>74AUP2G00-Q100 - Low-power dual 2-input NAND gate@en-us</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74AUP2G00_Q100.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74AUP2G00DC-Q100H</field>
+        <field name="Footprint">SOP50P310X100-8N</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74AUP2G00_Q100.pdf</field>
+        <field name="Description">74AUP2G00-Q100 - Low-power dual 2-input NAND gate@en-us</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74AUP2G00DC-Q100H</field>
+        <field name="Mouser Part Number">771-74AUP2G00DCQ100H</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74AUP2G00DC-Q100H?qs=%252B6g0mu59x7ID5tie8wVb0g%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="unspc"/>
+        <pin num="2" name="1B" type="unspc"/>
+        <pin num="3" name="2Y" type="unspc"/>
+        <pin num="4" name="GND" type="unspc"/>
+        <pin num="5" name="2A" type="unspc"/>
+        <pin num="6" name="2B" type="unspc"/>
+        <pin num="7" name="1Y" type="unspc"/>
+        <pin num="8" name="VCC" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="AFE4404YZPT" part="AFE4404YZPT">
+      <description>Ultra-small, Integrated AFE for Wearable, Optical Heart Rate Monitoring and Bio-Sensing</description>
+      <docs>http://www.ti.com/lit/gpn/afe4404</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AFE4404YZPT</field>
+        <field name="Footprint">BGA15C50P3X5_160X260X50</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/afe4404</field>
+        <field name="Description">Ultra-small, Integrated AFE for Wearable, Optical Heart Rate Monitoring and Bio-Sensing</field>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">AFE4404YZPT</field>
+        <field name="Mouser Part Number">595-AFE4404YZPT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AFE4404YZPT?qs=GJ%2F2ZGcr5uN6CYYaQrxmmA%3D%3D</field>
+        <field name="RS Part Number">1330132P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1330132P</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="INM" type="unspc"/>
+        <pin num="A2" name="RX_SUP" type="power_in"/>
+        <pin num="A3" name="IO_SUP" type="power_in"/>
+        <pin num="B1" name="INP" type="unspc"/>
+        <pin num="B2" name="ADC_RDY" type="output"/>
+        <pin num="B3" name="TX1" type="output"/>
+        <pin num="C1" name="DNC" type="unspc"/>
+        <pin num="C2" name="CLK" type="BiDi"/>
+        <pin num="C3" name="TX3" type="output"/>
+        <pin num="D1" name="RESETZ" type="unspc"/>
+        <pin num="D2" name="TX2" type="output"/>
+        <pin num="D3" name="GND" type="power_in"/>
+        <pin num="E1" name="I2C_DAT" type="BiDi"/>
+        <pin num="E2" name="I2C_CLK" type="input"/>
+        <pin num="E3" name="TX_SUP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ANT016008LCS2442MA1" part="ANT016008LCS2442MA1">
+      <description>TDK - ANT016008LCS2442MA1 - CHIP ANTENNA, 2.4GHZ, ISM, 50 OHM, 0603</description>
+      <docs>https://product.tdk.com/info/en/documents/data_sheet/rf_ant_ant016008lcs2442ma1_summary_en.pdf</docs>
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">ANT016008LCS2442MA1</field>
+        <field name="Footprint">ANT016008LCD1575MA1</field>
+        <field name="Datasheet">https://product.tdk.com/info/en/documents/data_sheet/rf_ant_ant016008lcs2442ma1_summary_en.pdf</field>
+        <field name="Description">TDK - ANT016008LCS2442MA1 - CHIP ANTENNA, 2.4GHZ, ISM, 50 OHM, 0603</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">ANT016008LCS2442MA1</field>
+        <field name="Mouser Part Number">810-ANT168LCS2442MA1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/ANT016008LCS2442MA1?qs=6JAMGB%252BEdkzA5xxexILXRg%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RADIATOR_ELECTRODE" type="unspc"/>
+        <pin num="2" name="DUMMY_PAD_1" type="unspc"/>
+        <pin num="3" name="FEED_POINT" type="unspc"/>
+        <pin num="4" name="DUMMY_PAD_2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="CPC2030N" part="CPC2030N">
+      <description>MOSFET Output Optocouplers Dual SP Open Relay 8-Pin SOIC OptoMOS</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/CPC2030N.pdf</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CPC2030N</field>
+        <field name="Footprint">SOP254P610X218-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/CPC2030N.pdf</field>
+        <field name="Description">MOSFET Output Optocouplers Dual SP Open Relay 8-Pin SOIC OptoMOS</field>
+        <field name="Height">2.184</field>
+        <field name="Manufacturer_Name">IXYS SEMICONDUCTOR</field>
+        <field name="Manufacturer_Part_Number">CPC2030N</field>
+        <field name="Mouser Part Number">849-CPC2030N</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC2030N?qs=MxzUEhdSHRaHve46MRK9Ew%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CONTROL_+_1" type="power_in"/>
+        <pin num="2" name="CONTROL_-_1" type="power_in"/>
+        <pin num="3" name="CONTROL_+_2" type="power_in"/>
+        <pin num="4" name="CONTROL_-_2" type="power_in"/>
+        <pin num="5" name="LOAD_1_1" type="BiDi"/>
+        <pin num="6" name="LOAD_1_2" type="BiDi"/>
+        <pin num="7" name="LOAD_2_1" type="BiDi"/>
+        <pin num="8" name="LOAD_2_2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-PICO-D4" part="ESP32-PICO-D4">
+      <description>RF System on a Chip - SoC LGA48-pin, 7*7mm</description>
+      <docs>http://www.mouser.com/datasheet/2/891/esp32-pico-d4_datasheet_en-1365829.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ESP32-PICO-D4</field>
+        <field name="Footprint">ESP32PICOD4</field>
+        <field name="Datasheet">http://www.mouser.com/datasheet/2/891/esp32-pico-d4_datasheet_en-1365829.pdf</field>
+        <field name="Description">RF System on a Chip - SoC LGA48-pin, 7*7mm</field>
+        <field name="Height">1.04</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-PICO-D4</field>
+        <field name="Mouser Part Number">356-ESP32-PICO-D4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-PICO-D4?qs=MLItCLRbWsw7MJlbN3HfdA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDA_1" type="unspc"/>
+        <pin num="2" name="LNA_IN" type="unspc"/>
+        <pin num="3" name="VDDA3P3_1" type="unspc"/>
+        <pin num="4" name="VDDA3P3_2" type="unspc"/>
+        <pin num="5" name="SENSOR_VP" type="unspc"/>
+        <pin num="6" name="SENSOR_CAPP" type="unspc"/>
+        <pin num="7" name="SENSOR_CAPN" type="unspc"/>
+        <pin num="8" name="SENSOR_VN" type="unspc"/>
+        <pin num="9" name="EN" type="unspc"/>
+        <pin num="10" name="IO34" type="unspc"/>
+        <pin num="11" name="IO35" type="unspc"/>
+        <pin num="12" name="IO32" type="unspc"/>
+        <pin num="13" name="IO33" type="unspc"/>
+        <pin num="14" name="IO25" type="unspc"/>
+        <pin num="15" name="IO26" type="unspc"/>
+        <pin num="16" name="IO27" type="unspc"/>
+        <pin num="17" name="IO14" type="unspc"/>
+        <pin num="18" name="IO12" type="unspc"/>
+        <pin num="19" name="VDD3P3_RTC" type="unspc"/>
+        <pin num="20" name="IO13" type="unspc"/>
+        <pin num="21" name="IO15" type="unspc"/>
+        <pin num="22" name="IO2" type="unspc"/>
+        <pin num="23" name="IO0" type="unspc"/>
+        <pin num="24" name="IO4" type="unspc"/>
+        <pin num="25" name="IO16" type="unspc"/>
+        <pin num="26" name="VDD_SDIO" type="unspc"/>
+        <pin num="27" name="IO17" type="unspc"/>
+        <pin num="28" name="SD2" type="unspc"/>
+        <pin num="29" name="SD3" type="unspc"/>
+        <pin num="30" name="CMD" type="unspc"/>
+        <pin num="31" name="CLK" type="unspc"/>
+        <pin num="32" name="SD0" type="unspc"/>
+        <pin num="33" name="SD1" type="unspc"/>
+        <pin num="34" name="IO5" type="unspc"/>
+        <pin num="35" name="IO18" type="unspc"/>
+        <pin num="36" name="IO23" type="unspc"/>
+        <pin num="37" name="VDD3P3_CPU" type="unspc"/>
+        <pin num="38" name="IO19" type="unspc"/>
+        <pin num="39" name="IO22" type="unspc"/>
+        <pin num="40" name="U0RXD" type="unspc"/>
+        <pin num="41" name="U0TXD" type="unspc"/>
+        <pin num="42" name="IO21" type="unspc"/>
+        <pin num="43" name="VDDA_2" type="unspc"/>
+        <pin num="44" name="XTAL_N_NC" type="unspc"/>
+        <pin num="45" name="XTAL_P_NC" type="unspc"/>
+        <pin num="46" name="VDDA_3" type="unspc"/>
+        <pin num="47" name="CAP2_NC" type="unspc"/>
+        <pin num="48" name="CAP1_NC" type="unspc"/>
+        <pin num="49" name="EP_GND" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="MC3635" part="MC3635">
+      <description>Accelerometers Digital Output 3 Axis Acceleronmeter</description>
+      <docs>http://www.mcubemems.com/wp-content/uploads/2017/09/MC3635-Datasheet-APS-048-0044v1.5.pdf</docs>
+      <fields>
+        <field name="Reference">AC</field>
+        <field name="Value">MC3635</field>
+        <field name="Footprint">MC3635</field>
+        <field name="Datasheet">http://www.mcubemems.com/wp-content/uploads/2017/09/MC3635-Datasheet-APS-048-0044v1.5.pdf</field>
+        <field name="Description">Accelerometers Digital Output 3 Axis Acceleronmeter</field>
+        <field name="Height">0.94</field>
+        <field name="Manufacturer_Name">mCube</field>
+        <field name="Manufacturer_Part_Number">MC3635</field>
+        <field name="Mouser Part Number">498-MC3635</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/mCube/MC3635?qs=xIT89idmjZlQ0wKEjJ43VQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT_A1" type="unspc"/>
+        <pin num="2" name="SIN_SDA" type="unspc"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="VPP" type="unspc"/>
+        <pin num="5" name="INTN" type="output"/>
+        <pin num="6" name="VDDIO" type="unspc"/>
+        <pin num="7" name="VDD" type="unspc"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="CSN" type="power_in"/>
+        <pin num="10" name="SCK_SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV70012_WSON6">
+      <aliases>
+        <alias>TLV70015_WSON6</alias>
+        <alias>TLV70018_WSON6</alias>
+        <alias>TLV70025_WSON6</alias>
+        <alias>TLV70028_WSON6</alias>
+        <alias>TLV70029_WSON6</alias>
+        <alias>TLV70030_WSON6</alias>
+        <alias>TLV70031_WSON6</alias>
+        <alias>TLV70033_WSON6</alias>
+        <alias>TLV70036_WSON6</alias>
+        <alias>TLV70225_WSON6</alias>
+        <alias>TLV70228_WSON6</alias>
+        <alias>TLV70229_WSON6</alias>
+        <alias>TLV70233_WSON6</alias>
+        <alias>TLV70236_WSON6</alias>
+        <alias>TLV70237_WSON6</alias>
+        <alias>TLV70242PDSE</alias>
+      </aliases>
+      <description>200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, WSON6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv700.pdf</docs>
+      <footprints>
+        <fp>WSON*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV70012_WSON6</field>
+        <field name="Footprint">Package_SON:WSON-6_1.5x1.5mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFH_7050" part="SFH_7050">
+      <description>Osram LED,CoB - BioMon Osram LED,CoB - BioMon</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/SFH 7050.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SFH_7050</field>
+        <field name="Footprint">SFH7050</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/SFH 7050.pdf</field>
+        <field name="Description">Osram LED,CoB - BioMon Osram LED,CoB - BioMon</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">SFH 7050</field>
+        <field name="Mouser Part Number">720-SFH7050</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-7050?qs=beZBGHSk9c35Nini1YeCrg%3D%3D</field>
+        <field name="RS Part Number">8353096P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/8353096P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GREEN_LED_CATHODE" type="unspc"/>
+        <pin num="2" name="GREEN_LED_ANODE" type="unspc"/>
+        <pin num="3" name="RED_LED_ANODE" type="unspc"/>
+        <pin num="4" name="PD_ANODE" type="unspc"/>
+        <pin num="5" name="PD_CATHODE" type="unspc"/>
+        <pin num="6" name="RED_LED_CATHODE" type="unspc"/>
+        <pin num="7" name="IR_LED_ANODE" type="unspc"/>
+        <pin num="8" name="IR_LED_CATHODE" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74AUP2G00DC-Q100H">
+      <uri>D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware/libs/LIB_74AUP2G00DC-Q100H/74AUP2G00DC-Q100H.lib</uri>
+    </library>
+    <library logical="AFE4404YZPT">
+      <uri>D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware/libs/LIB_AFE4404YZPT/AFE4404YZPT.lib</uri>
+    </library>
+    <library logical="ANT016008LCS2442MA1">
+      <uri>D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware/libs/LIB_ANT016008LCS2442MA1/ANT016008LCS2442MA1.lib</uri>
+    </library>
+    <library logical="CPC2030N">
+      <uri>D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware/libs/LIB_CPC2030N/CPC2030N.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="ESP32-PICO-D4">
+      <uri>D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware/libs/LIB_ESP32-PICO-D4/ESP32-PICO-D4.lib</uri>
+    </library>
+    <library logical="MC3635">
+      <uri>D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware/libs/LIB_MC3635/MC3635.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="SFH_7050">
+      <uri>D:\Projects\Project_10_trn_refl_ppg_data_acq\hardware/libs/LIB_SFH_7050/SFH_7050.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="SDA">
+      <node ref="IC4" pin="42"/>
+      <node ref="AC1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="IC3" pin="E1"/>
+    </net>
+    <net code="2" name="SCL">
+      <node ref="AC1" pin="10"/>
+      <node ref="IC3" pin="E2"/>
+      <node ref="IC4" pin="39"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="K1" pin="8"/>
+      <node ref="K1" pin="6"/>
+      <node ref="IC3" pin="E3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="4" name="R_LED_AN">
+      <node ref="K1" pin="7"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="5" name="T_LED_AN">
+      <node ref="K1" pin="5"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="6" name="Net-(IC2-Pad4)">
+      <node ref="IC3" pin="A1"/>
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="7" name="Net-(IC2-Pad5)">
+      <node ref="IC2" pin="5"/>
+      <node ref="IC3" pin="B1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J3" pin="5"/>
+      <node ref="AC1" pin="1"/>
+      <node ref="AC1" pin="8"/>
+      <node ref="IC4" pin="49"/>
+      <node ref="C13" pin="2"/>
+      <node ref="IC3" pin="D3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="K1" pin="4"/>
+      <node ref="K1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="9" name="Net-(IC3-PadC2)">
+      <node ref="R3" pin="1"/>
+      <node ref="IC3" pin="C2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="10" name="MCU_CLK">
+      <node ref="IC4" pin="27"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="11" name="MCU_ADC_RDY">
+      <node ref="IC4" pin="25"/>
+      <node ref="IC3" pin="B2"/>
+    </net>
+    <net code="12" name="MCU_RESETZ">
+      <node ref="IC3" pin="D1"/>
+      <node ref="IC4" pin="38"/>
+    </net>
+    <net code="13" name="LED_G">
+      <node ref="J1" pin="3"/>
+      <node ref="IC3" pin="B3"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="14" name="LED_R">
+      <node ref="J1" pin="1"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="IC3" pin="C3"/>
+    </net>
+    <net code="15" name="LED_IR">
+      <node ref="IC2" pin="8"/>
+      <node ref="J1" pin="2"/>
+      <node ref="IC3" pin="D2"/>
+    </net>
+    <net code="16" name="Net-(K1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="18" name="MODE">
+      <node ref="IC1" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="IC4" pin="35"/>
+    </net>
+    <net code="19" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="20" name="Net-(IC3-PadC1)">
+      <node ref="IC3" pin="C1"/>
+    </net>
+    <net code="21" name="3.3VMCU">
+      <node ref="U1" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="IC4" pin="19"/>
+      <node ref="IC4" pin="4"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="IC4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="IC4" pin="46"/>
+      <node ref="IC4" pin="43"/>
+      <node ref="C7" pin="1"/>
+      <node ref="IC4" pin="37"/>
+      <node ref="J2" pin="5"/>
+      <node ref="C13" pin="1"/>
+      <node ref="AC1" pin="6"/>
+      <node ref="AC1" pin="7"/>
+      <node ref="AC1" pin="9"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC3" pin="A3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC3" pin="A2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="22" name="INV_MODE">
+      <node ref="R2" pin="2"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="23" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="24" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="25" name="Net-(AC1-Pad3)">
+      <node ref="AC1" pin="3"/>
+    </net>
+    <net code="26" name="Net-(AC1-Pad4)">
+      <node ref="AC1" pin="4"/>
+    </net>
+    <net code="27" name="Net-(AC1-Pad5)">
+      <node ref="AC1" pin="5"/>
+    </net>
+    <net code="28" name="RX">
+      <node ref="J2" pin="3"/>
+      <node ref="IC4" pin="40"/>
+    </net>
+    <net code="29" name="TX">
+      <node ref="J2" pin="4"/>
+      <node ref="IC4" pin="41"/>
+    </net>
+    <net code="30" name="Net-(IC4-Pad45)">
+      <node ref="IC4" pin="45"/>
+    </net>
+    <net code="31" name="Net-(IC4-Pad31)">
+      <node ref="IC4" pin="31"/>
+    </net>
+    <net code="32" name="Net-(IC4-Pad32)">
+      <node ref="IC4" pin="32"/>
+    </net>
+    <net code="33" name="Net-(IC4-Pad33)">
+      <node ref="IC4" pin="33"/>
+    </net>
+    <net code="34" name="Net-(IC4-Pad34)">
+      <node ref="IC4" pin="34"/>
+    </net>
+    <net code="35" name="Net-(IC4-Pad36)">
+      <node ref="IC4" pin="36"/>
+    </net>
+    <net code="36" name="Net-(IC4-Pad44)">
+      <node ref="IC4" pin="44"/>
+    </net>
+    <net code="37" name="Net-(IC4-Pad30)">
+      <node ref="IC4" pin="30"/>
+    </net>
+    <net code="38" name="Net-(IC4-Pad47)">
+      <node ref="IC4" pin="47"/>
+    </net>
+    <net code="39" name="Net-(IC4-Pad48)">
+      <node ref="IC4" pin="48"/>
+    </net>
+    <net code="40" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="41" name="Net-(IC4-Pad15)">
+      <node ref="IC4" pin="15"/>
+    </net>
+    <net code="42" name="LNA">
+      <node ref="IC4" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="43" name="Net-(IC4-Pad5)">
+      <node ref="IC4" pin="5"/>
+    </net>
+    <net code="44" name="Net-(IC4-Pad6)">
+      <node ref="IC4" pin="6"/>
+    </net>
+    <net code="45" name="Net-(IC4-Pad7)">
+      <node ref="IC4" pin="7"/>
+    </net>
+    <net code="46" name="Net-(IC4-Pad8)">
+      <node ref="IC4" pin="8"/>
+    </net>
+    <net code="47" name="Net-(IC4-Pad10)">
+      <node ref="IC4" pin="10"/>
+    </net>
+    <net code="48" name="Net-(IC4-Pad11)">
+      <node ref="IC4" pin="11"/>
+    </net>
+    <net code="49" name="Net-(IC4-Pad12)">
+      <node ref="IC4" pin="12"/>
+    </net>
+    <net code="50" name="Net-(IC4-Pad13)">
+      <node ref="IC4" pin="13"/>
+    </net>
+    <net code="51" name="Net-(IC4-Pad14)">
+      <node ref="IC4" pin="14"/>
+    </net>
+    <net code="52" name="Net-(IC4-Pad16)">
+      <node ref="IC4" pin="16"/>
+    </net>
+    <net code="53" name="Net-(IC4-Pad17)">
+      <node ref="IC4" pin="17"/>
+    </net>
+    <net code="54" name="Net-(IC4-Pad18)">
+      <node ref="IC4" pin="18"/>
+    </net>
+    <net code="55" name="Net-(IC4-Pad20)">
+      <node ref="IC4" pin="20"/>
+    </net>
+    <net code="56" name="Net-(IC4-Pad21)">
+      <node ref="IC4" pin="21"/>
+    </net>
+    <net code="57" name="Net-(IC4-Pad22)">
+      <node ref="IC4" pin="22"/>
+    </net>
+    <net code="58" name="IO0">
+      <node ref="IC4" pin="23"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="59" name="Net-(IC4-Pad24)">
+      <node ref="IC4" pin="24"/>
+    </net>
+    <net code="60" name="Net-(IC4-Pad26)">
+      <node ref="IC4" pin="26"/>
+    </net>
+    <net code="61" name="Net-(IC4-Pad28)">
+      <node ref="IC4" pin="28"/>
+    </net>
+    <net code="62" name="Net-(IC4-Pad29)">
+      <node ref="IC4" pin="29"/>
+    </net>
+    <net code="63" name="RST">
+      <node ref="C3" pin="1"/>
+      <node ref="IC4" pin="9"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="64" name="Net-(ANT1-Pad1)">
+      <node ref="ANT1" pin="1"/>
+    </net>
+    <net code="65" name="Net-(ANT1-Pad2)">
+      <node ref="ANT1" pin="2"/>
+    </net>
+    <net code="66" name="Net-(ANT1-Pad4)">
+      <node ref="ANT1" pin="4"/>
+    </net>
+    <net code="67" name="Net-(ANT1-Pad3)">
+      <node ref="ANT1" pin="3"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="68" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="70" name="USBVDD">
+      <node ref="C10" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="71" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="72" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="73" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="74" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+  </nets>
+</export>

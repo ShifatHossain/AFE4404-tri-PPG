@@ -1,0 +1,9 @@
+Manufacturer=OSRAM
+PartNumber=CT DELSS1.12-AABA-36-44G4
+PartCategory=LED
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2020-03-29 12:23:57
+Downloaded=2020-04-29 08:39:35
+3D=Y

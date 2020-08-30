@@ -1,0 +1,9 @@
+Manufacturer=IXYS SEMICONDUCTOR
+PartNumber=CPC2030N
+PartCategory=Relay or Contactor
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2017-07-04 18:06:50
+Downloaded=2020-04-29 09:51:46
+3D=Y

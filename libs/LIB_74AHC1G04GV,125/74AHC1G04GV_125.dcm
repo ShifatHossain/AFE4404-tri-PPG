@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC1G04GV,125
+D NEXPERIA - 74AHC1G04GV,125 - INVERTER, SINGLE, 1 I/P, SC-74A
+K
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+#End Doc Library

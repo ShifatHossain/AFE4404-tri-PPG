@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name LIB_CH_DELSS1)(type KiCad)(uri D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_CH_DELSS1.22-S1T2-35)(options "")(descr ""))
+  (lib (name LIB_CT_DELSS1)(type KiCad)(uri D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_CT_DELSS1.12-AABA-36-44G4)(options "")(descr ""))
+  (lib (name LIB_SFH_4043)(type KiCad)(uri D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_SFH_4043)(options "")(descr ""))
+  (lib (name LIB_SFH_4441)(type KiCad)(uri D:/Projects/Project_10_trn_refl_ppg_data_acq/hardware/libs/LIB_SFH_4441)(options "")(descr ""))
+)

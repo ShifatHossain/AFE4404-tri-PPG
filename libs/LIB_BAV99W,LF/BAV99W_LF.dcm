@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAV99W,LF
+D Diodes - General Purpose, Power, Switching Switching Diode 100V .9pF .15A
+K
+F https://componentsearchengine.com/Datasheets/1/BAV99W,LF.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=74AHC1G04GV,125
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=2.1
+Released=2019-05-03 04:39:35
+Downloaded=2020-05-07 13:22:07
+3D=Y

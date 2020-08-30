@@ -1,0 +1,6 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+1,"REF**,REF**",PinHeader_1x01_P2.54mm_Vertical,2,PinHeader_1x01_P2.54mm_Vertical,
+2,LED3,LEDM2320X105N,1,SFH_4441,
+3,LED2,CHDELSS122S1T235,1,CH_DELSS1.22-S1T2-35,
+4,LED1,CTDELSS112AABA3644G4,1,CT_DELSS1.12-AABA-36-44G4,
+5,J1,PinSocket_1x04_P2.54mm_Vertical,1,Conn_01x04_Male,

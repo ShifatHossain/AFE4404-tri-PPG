@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CPC2030N
+D MOSFET Output Optocouplers Dual SP Open Relay 8-Pin SOIC OptoMOS
+K
+F https://componentsearchengine.com/Datasheets/1/CPC2030N.pdf
+$ENDCMP
+#
+#End Doc Library
